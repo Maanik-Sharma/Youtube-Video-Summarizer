@@ -1,27 +1,10 @@
 <h1 align="center">
-  <br>
-  <a href="https://github.com/siddharthsky/ai-video-summarizer-and-timestamp-generator-LLM-p"><img src="https://i.imgur.com/Jk1wxO3.png" alt="AI YouTube Video Summarizer" width="200"></a>
-  <br>
    🎥 AI Video Summarization & Timestamp Generator
   <br>
 </h1>
 
 <h4 align="center">Harnessing the Power of LLMs for Enhanced Video Understanding</h4>
 
-<p align="center">
-  <a href="https://github.com/siddharthsky/ai-video-summarizer-and-timestamp-generator-LLM-p/issues"><img src="https://img.shields.io/github/issues/siddharthsky/google-gemini-yt-video-summarizer-AI-p"></a> 
-  <a href="https://github.com/siddharthsky/ai-video-summarizer-and-timestamp-generator-LLM-p/stargazers"><img src="https://img.shields.io/github/stars/siddharthsky/google-gemini-yt-video-summarizer-AI-p"></a>
-  <a href="https://github.com/siddharthsky/ai-video-summarizer-and-timestamp-generator-LLM-p/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#overview-">Overview</a> •
-  <a href="#features-">Features</a> •
-  <a href="#getting-started-">Getting Started</a> •
-  <a href="#contributing">Contributing</a> 
-</p>
 
 <p align="center">
   <a href="https://github.com/siddharthsky/ai-video-summarizer-and-timestamp-generator-LLM-p"><img src="https://raw.githubusercontent.com/siddharthsky/google-gemini-yt-video-summarizer-AI-p/main/research/demo3.gif" alt="Usage Demo"></a>

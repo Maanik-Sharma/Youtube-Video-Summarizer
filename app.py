@@ -46,9 +46,11 @@ class AIVideoSummarizer:
 
                     def switch(model_name):
                         if model_name == "Gemini":
-                            st.columns(3)[1].image("https://i.imgur.com/w9izNH5.png", use_column_width=True)
+                            # st.columns(3)[1].image("https://i.imgur.com/w9izNH5.png", use_column_width=True)
+                            st.columns(3)[1].image("https://i.imgur.com/w9izNH5.png", use_container_width=True)
                         elif model_name == "ChatGPT":
-                            st.columns(3)[1].image("https://i.imgur.com/Sr9e9ZC.png", use_column_width=True)
+                            # st.columns(3)[1].image("https://i.imgur.com/Sr9e9ZC.png", use_column_width=True)
+                            st.columns(3)[1].image("https://i.imgur.com/Sr9e9ZC.png", use_container_width=True)
 
                     switch(self.model_name)
 
@@ -56,11 +58,13 @@ class AIVideoSummarizer:
             self.video_id = GetVideo.Id(self.youtube_url)
             if self.video_id is None:
                 st.write("**Error**")
-                st.image("https://i.imgur.com/KWFtgxB.png", use_column_width=True)
+                # st.image("https://i.imgur.com/KWFtgxB.png", use_column_width=True)
+                st.image("https://i.imgur.com/KWFtgxB.png", use_container_width=True)
                 st.stop()
             self.video_title = GetVideo.title(self.youtube_url)
             st.write(f"**{self.video_title}**")
-            st.image(f"http://img.youtube.com/vi/{self.video_id}/0.jpg", use_column_width=True)
+            # st.image(f"http://img.youtube.com/vi/{self.video_id}/0.jpg", use_column_width=True)
+            st.image(f"http://img.youtube.com/vi/{self.video_id}/0.jpg", use_container_width=True)
 
     def generate_summary(self):
         if st.button(":rainbow[**Get Summary**]"):
