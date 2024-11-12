@@ -28,7 +28,7 @@ class GetVideo:
             return title
         except TypeError:
             title = "⚠️ There seems to be an issue with the YouTube video link provided. Please check the link and try again."
-            return title
+            return title     
         
     @staticmethod
     def transcript(link):
