@@ -21,8 +21,11 @@ class ModuleEditor:
             return file.read()
 
     def write_file(self, file_path, content):
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(content)
+            print(f"File path: {file_path}")  # Add this line for debugging
+            with open(file_path, 'w', encoding='utf-8') as file:
+                 file.write(content)
+        # with open(file_path, 'w', encoding='utf-8') as file:
+           
 
     def modify_index_html(self):
         new_index_html_content = """
