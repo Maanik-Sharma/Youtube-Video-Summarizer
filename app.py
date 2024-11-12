@@ -1,3 +1,4 @@
+# app.py
 import streamlit as st
 import os
 from src.video_info import GetVideo
